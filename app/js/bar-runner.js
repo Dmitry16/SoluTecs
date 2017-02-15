@@ -27,19 +27,5 @@ function show_skills(el1, el2, skills) {
           }, 10);
       }
   }
-  // for(let skill of skills_arr) {
-  //   console.log(skill.name);
-  // }
 }
 show_skills(div, p_skill, skills);
-
-
-
-//
-
-
-
-//window.clearTimeout(timeoutID);
-// for(let i=0; i<div.length; i++) {
-//
-// }
