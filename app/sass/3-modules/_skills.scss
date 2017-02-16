@@ -1,0 +1,28 @@
+.skills>ul {
+  list-style: none;
+  text-align: left;
+}
+.skill-bar-runner {
+  margin: 0;
+  height: 1.4em;
+  width: 1px;
+  background: $c2;
+}
+.skill-bar-runner, .skill-level {
+  display: inline-block;
+  text-align: right;
+}
+// .skill-level {
+//   width: 2em;
+//   color: coral;
+//   padding: -10px 0 5px !important;
+//   text-align: center;
+// }
+.skill-level {
+  color: coral;
+  font-size: 0.7em;
+  margin: 0 3px 3em;
+  padding: 0;
+  //border: 1px solid coral;
+  text-align: right;
+}
